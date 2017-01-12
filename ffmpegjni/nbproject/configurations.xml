@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>com_snmill_jffmpeg_VideoCodecJNI.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="com_snmill_jffmpeg_VideoCodecJNI.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>C:/Program Files/Java/jdk1.8.0_11/include</pElem>
+            <pElem>C:/Program Files/Java/jdk1.8.0_11/include/win32</pElem>
+            <pElem>../ffmpeg-3.2.2</pElem>
+            <pElem>../ffmpeg-3.2.2/libavcodec</pElem>
+            <pElem>../ffmpeg-3.2.2/libavdevice</pElem>
+            <pElem>../ffmpeg-3.2.2/libavfilter</pElem>
+            <pElem>../ffmpeg-3.2.2/libavformat</pElem>
+            <pElem>../ffmpeg-3.2.2/libavresample</pElem>
+            <pElem>../ffmpeg-3.2.2/libavutil</pElem>
+            <pElem>../ffmpeg-3.2.2/libpostproc</pElem>
+            <pElem>../ffmpeg-3.2.2/libswresample</pElem>
+            <pElem>../ffmpeg-3.2.2/libswscale</pElem>
+            <pElem>../jffmpeg/jffmpeg/src/main/resources/includes</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../compiled/windows</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>avcodec-57</linkerLibLibItem>
+            <linkerLibLibItem>avcodec</linkerLibLibItem>
+            <linkerLibLibItem>avdevice-57</linkerLibLibItem>
+            <linkerLibLibItem>avdevice</linkerLibLibItem>
+            <linkerLibLibItem>avfilter-6</linkerLibLibItem>
+            <linkerLibLibItem>avfilter</linkerLibLibItem>
+            <linkerLibLibItem>avformat-57</linkerLibLibItem>
+            <linkerLibLibItem>avformat</linkerLibLibItem>
+            <linkerLibLibItem>avutil-55</linkerLibLibItem>
+            <linkerLibLibItem>avutil</linkerLibLibItem>
+            <linkerLibLibItem>swresample-2</linkerLibLibItem>
+            <linkerLibLibItem>swresample</linkerLibLibItem>
+            <linkerLibLibItem>swscale-4</linkerLibLibItem>
+            <linkerLibLibItem>swscale</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="com_snmill_jffmpeg_VideoCodecJNI.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
